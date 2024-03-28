@@ -44,7 +44,7 @@ This is a example using the basic version of `get_next_line`.
 gcc get_next_line.c get_next_line_utils.c main.c -D BUFFER_SIZE=<size> -o main
 ```
 
-replace `<size>` is the number of bytes to be read each time a `read` system call is trigged.
+replace `<size>` with the number of bytes to be read each time a `read` system call is trigged.
 
 ## Notes
 
